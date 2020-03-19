@@ -1,0 +1,63 @@
+body {
+    background-image: url("whitebrick.jpg");
+}
+/* Need to resize imgs and align right*/
+.firstdiv {
+    justify-content: flex-end;
+    align-items: right;
+}
+
+h1 {
+    font-family: "Arizonia", cursive;
+    font-size: 5em;
+    border-bottom: 2px solid pink;
+    border-right: 2px solid pink;
+    width: 600px;
+    text-align: center;
+    box-shadow: 4px 4px 5px purple;
+    margin: 0px;
+    padding-block: 10px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
+}
+
+img {
+    width: 400px;
+    height: 300;
+    margin: 10px;
+    transition: all 1s;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+.lead {
+    font-family: 'Merriweather', serif;
+
+}
+
+  
+/*.container:hover {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    width: 450px;
+    height: 300px;
+    margin: 10px;
+    transition: all 1s;
+    transform: scale(1.1);
+  }
+
+/*.background {
+    background-image: "whitebrick.jpg";
+    background: cover;
+    width: 1000px;
+    height: 1000px;
+    margin: 0px;
+}
+  
